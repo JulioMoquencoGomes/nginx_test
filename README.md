@@ -1,7 +1,7 @@
 # NGINX TEST
 
-#Construção da imagem:
+# Construção da imagem:
 docker build -t local-nginx
 
-#Execução:
+# Execução:
 docker run -d -p 80:80 local-nginx
