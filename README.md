@@ -1,10 +1,13 @@
 # NGINX TEST
 
-# Fonte
+# Fonte:
 https://blog.rosnertech.com.br/arquivos/1246
 
-# Construir
+# Construir:
 docker build -t jcmg_nginx/nginx:1.0 .
 
-# Executar
+# Executar o serviço:
 docker-compose up -d
+
+# Testar o resultado:
+http://localhost
