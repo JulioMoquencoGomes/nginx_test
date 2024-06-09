@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  web:
+    image: jcmg_nginx/nginx:1.0
+    ports:
+      - "80:80"

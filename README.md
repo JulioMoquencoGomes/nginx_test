@@ -1,7 +1,10 @@
 # NGINX TEST
 
-# Construção da imagem:
-docker build -t local-nginx
+# Fonte
+https://blog.rosnertech.com.br/arquivos/1246
 
-# Execução:
-docker run -d -p 80:80 local-nginx
+# Construir
+docker build -t jcmg_nginx/nginx:1.0 .
+
+# Executar
+docker-compose up -d
